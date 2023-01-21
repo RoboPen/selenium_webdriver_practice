@@ -18,6 +18,7 @@
     <selenium-java.version>4.3.0</selenium-java.version>
     <webdriver-manager.version>5.3.1</webdriver-manager.version>
     <selenium-devtools-v107>4.6.0</selenium-devtools-v107>
+    <hamcrest.version>2.2</hamcrest.version>
   </properties>
 
   <dependencies>
@@ -41,6 +42,12 @@
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-devtools-v107</artifactId>
       <version>${selenium-devtools-v107}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest</artifactId>
+      <version>${hamcrest.version}</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>

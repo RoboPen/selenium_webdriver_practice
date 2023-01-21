@@ -4,7 +4,4 @@ public enum AlertType {
     ALERT,
     CONFIRM,
     PROMPT;
-
-    AlertType() {
-    }
 }

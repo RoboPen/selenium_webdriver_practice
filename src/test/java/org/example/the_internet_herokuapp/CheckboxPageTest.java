@@ -18,7 +18,7 @@ public class CheckboxPageTest extends BaseTest {
     }
 
     @Test
-    public void verifyCheckboxIsUnselectedAfterUnselection(){
+    public void verifyCheckboxIsUnselectedAfterUnselecting(){
         boolean isSelected = checkboxPage.open()
                 .selectCheckbox(1)
                 .unselectCheckbox(1)
